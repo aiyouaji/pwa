@@ -1154,7 +1154,7 @@ ${relationship_context}`;
 
   // src/dropbox.js
   window.dropboxApi = {
-    APP_KEY: "nb8btcpivs6ba9u",
+    APP_KEY: "vsahedh4r7gp3xs",
     METADATA_PATH: "/gemini_pwa_data.json",
     ASSETS_DIR_PATH: "/Gemini_PWA_Assets",
     /**
@@ -5765,7 +5765,7 @@ Reason: [NGの場合の理由]`,
       });
       elements.dropboxAuthBtn.addEventListener("click", async () => {
         try {
-          const APP_KEY = "nb8btcpivs6ba9u";
+          const APP_KEY = "vsahedh4r7gp3xs";
           const REDIRECT_URI = window.location.origin + window.location.pathname;
           const codeVerifier = appLogic._generateCodeVerifier();
           const codeChallenge = await appLogic._generateCodeChallenge(codeVerifier);
