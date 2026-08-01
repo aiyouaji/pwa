@@ -2,8 +2,7 @@
  * Dropbox APIと通信するためのヘルパーオブジェクト (V2 - アセット分離対応版)
  */
  window.dropboxApi = {
-    APP_KEY: '	
-vsahedh4r7gp3xs',
+    APP_KEY: 'vsahedh4r7gp3xs',
     METADATA_PATH: '/gemini_pwa_data.json',
     ASSETS_DIR_PATH: '/Gemini_PWA_Assets',
 
